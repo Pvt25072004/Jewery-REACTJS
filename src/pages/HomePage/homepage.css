@@ -1,0 +1,173 @@
+.HomePage{
+    font-family: 'Roboto', sans-serif;
+}
+.HomePage > .carousel{
+    padding-top: 10px;
+}
+.hp__container{
+    padding-top: 80px;
+}
+h3{
+    padding-top: 20px;
+    color: #42210b;
+}
+p{
+    padding-top: 20px;
+    color: #42210b;
+    font-weight: 600;
+}
+.hp__container--intro{
+    width: 420px;
+    text-align: center;
+    height: auto;
+}
+.hp__container--slogan{
+    font-family: 'Allison', cursive;
+    background-color: #f5f4f3;
+    text-align: center;
+    margin-top: 80px;
+    width: 1300px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 60px;
+    border-radius: 4px;
+}
+.hp__container--info > img{
+    border-radius: 4px;
+}
+.hp__container--info{
+    padding-top: 10px;
+    text-align: center;
+}
+.hp__container--info-img > img{
+    width: 410px;
+    height: 400px;
+    border-radius: 4px;
+}
+.hp__container--info-click{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 200px;
+}
+.hp__container--info-click > button{
+    border-radius: 50px;
+}
+.hp__container-born{
+    color: #42210b;
+    margin-top: 70px;
+    border-bottom: 1px solid #42210b;
+    padding-bottom: 80px;
+}
+.hp__container-born-title{
+    padding-bottom: 40px;
+    text-align: center;
+}
+.hp__container-born-img{
+    text-align: right;
+}
+.hp__container-born-intro > img{
+    width: 420px;
+    height: 248px;
+    border-radius: 4px;
+}
+.hp__container-born-intro-img{
+    margin-top: 5px;
+    border-radius: 4px;
+}
+.hp__container--bestseller{
+    color: #42210b;
+    margin-top: 100px;
+    border-bottom: 1px solid #42210b;
+    padding-bottom: 10px;
+}
+.hp__container-bestseller-img > img{
+    width: 410px;
+    height: 400px;
+    border-radius: 4px;
+}
+.hp__container-about-img > img{
+    width: 310px;
+    height: 300px;
+    border-radius: 4px;
+}
+.hp__product:hover{
+    transition: all linear 0.3s;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.hp__container-bestseller-img{
+    text-align: center;
+    border-radius: 4px;
+}
+.hp__container-about-img{
+    text-align: center;
+    cursor: pointer;
+}
+.hp__container-bestseller-click{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 300px;
+}
+.hp__container-bestseller-click > button{
+    border-radius: 50px;
+}
+.hp__container--blog{
+    color: #42210b;
+    margin-top: 90px;
+    border-bottom: 1px solid #42210b;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.hp__container--about{
+    color: #42210b;
+    margin-top: 90px;
+    border-bottom: 1px solid #42210b;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.hp__container-about-click{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 200px;
+}
+.hp__container-about-click > button{
+    border-radius: 50px;
+}
+.hp__container--feedback{
+    color: #42210b;
+    margin-top: 90px;
+    padding-bottom: 10px;
+}
+.hp__container-about-tick{
+    color: #0081ff;
+}
+.hp__container-social-title{
+    padding-bottom: 40px;
+    text-align: center;
+    color: #42210b;
+    font-weight: 100;
+    padding: 60px 0;
+}
+.hp__container-social{
+    margin-bottom: 100px;
+}
+.hp__container-social-title > button{
+    border-radius: 4px;
+    background-color: #42210b;
+    color: #f5f4f3;
+}
+.hp__container-social-img > img{
+    width: 310px;
+    height: 300px;
+    border-radius: 4px;
+}
+.hp__container-social-img-right > img{
+    width: 156px;
+    height: 148px;
+}
+.hp__container-social-img-left > img{
+    width: 156px;
+    height: 148px;
+}
