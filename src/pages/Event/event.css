@@ -1,0 +1,16 @@
+.event{
+    margin-bottom: 80px;
+}
+.event_card-limit{
+    font-weight: 400;
+    line-height: 1.6rem;
+    padding: 0;
+    height: 3.2rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.instagram-img{
+    width: 100%;
+}

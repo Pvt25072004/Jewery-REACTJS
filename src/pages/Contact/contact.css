@@ -1,0 +1,31 @@
+.contact-img-map{
+    width: 100%;
+}
+.contact_style-center{
+    text-align: center;
+}
+.contact{
+    margin-bottom: 80px;
+}
+.contact-img-address{
+    width: 100%;
+}
+.contact_space{
+    margin-top: 40px;
+}
+.contact_info-conact{
+    padding: 30px 0;
+}
+.conact_input{
+    margin: 20px 0;
+}
+.contact_submit-btn{
+    color: #42210b;
+    background-color: transparent;
+    border-color: #42210b;
+}
+.contact_submit-btn:hover{
+    transition: all linear .3s;
+    background-color: #42210b;
+    color: #ffffff;
+}

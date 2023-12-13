@@ -13,7 +13,7 @@ export default function Footer() {
     <div className="footer">
       <Container>
         <Row>
-          <Col md={2} className="footer__item">
+          <Col md={2} className="footer__item footer__item-underline">
             <ul>
               <a href="">
                 <li>TRANG CHỦ</li>
@@ -42,7 +42,7 @@ export default function Footer() {
               </a>
             </ul>
           </Col>
-          <Col md={3} className="footer__item">
+          <Col md={3} className="footer__item footer__item-underline">
             <ul>
               <a href="">
                 <li>
@@ -70,11 +70,14 @@ export default function Footer() {
               </a>
             </ul>
           </Col>
-          <Col md={4} className="footer__main">
+          <Col md={4} className="footer__main footer__item-underline">
             <img src="https://bizweb.dktcdn.net/100/302/551/themes/758295/assets/logo-footer.png?1699007615400" />
-            <p>JEWELRY STORE IN SAIGON DESIGN & MADE TO ORDER Since 2012</p>
+            <p className="footer__main-name">
+              JEWELRY STORE IN SAIGON
+              <br /> DESIGN & MADE TO ORDER Since 2012
+            </p>
           </Col>
-          <Col md={3} className="footer__item">
+          <Col md={3} className="footer__item footer__item-address">
             <ul>
               <a href="" className="footer__address">
                 <li>

@@ -1,0 +1,18 @@
+.register{
+    margin-bottom: 80px;
+}
+.register_input{
+    margin: 20px 0;
+    color: #42210b;
+}
+.register_submit-btn{
+    color: #ffffff;
+    background-color: #42210b;
+    border-color: #42210b;
+}
+.register_submit-btn:hover{
+    transition: all linear .2s;
+    background-color: #6c3713;
+    color: #ffffff;
+    border-color: #42210b;
+}

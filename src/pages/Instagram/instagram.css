@@ -1,0 +1,26 @@
+.instagram{
+    margin-bottom: 80px;
+}
+.instagram-img{
+    width: 100%;
+}
+.isg_card:hover{
+    background-color: #000000;
+    z-index: 100;
+    opacity: 60%;
+    cursor: pointer;
+    outline: none !important;
+}
+.isg_card:hover .card_handle{
+    display: flex;
+}
+.card_handle{
+    display: none;
+}
+.hearts_handle{
+    margin-right: 50px;
+    cursor: pointer;
+}
+.comments_handle{
+    cursor: pointer;
+}

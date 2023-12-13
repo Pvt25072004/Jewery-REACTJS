@@ -1,0 +1,60 @@
+.container {
+    margin: 0 auto;
+    width: 100%;
+    border: #cacaca solid 1px;
+  }
+  .row {
+    display: flex;
+  }
+  .left {
+    width: 15%;
+  }
+  .right {
+    width: 85%;
+  }
+  .cat {
+    text-align: left;
+    border: 1px solid #ffffff;
+    padding: 10px 15px;
+  }
+  .cat:hover {
+    transition: all linear .3s;
+    border-radius: 4px;
+    background-color: #42210b;
+    color: white;
+    font-size: 16pt;
+    cursor: pointer;
+  }
+  .boxes {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .product {
+    border: 1px solid #cacaca;
+    border-radius: 4px;
+    padding: 10px;
+  }
+  .product > h3{
+    font-size: 16px;
+  }
+  .product:hover{
+    transition: all linear .3s;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+  .prodimg {
+    width: 100%;
+  }
+  .product button {
+    border: 1px solid white;
+    color: white;
+    background-color: blue;
+    padding: 5px 10px;
+  }
+  .datontai {
+    color: orangered;
+    font-style: italic;
+  }
+  .whatnew-img{
+    width: 100%;
+}

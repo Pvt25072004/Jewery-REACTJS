@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import { store } from "./redux/store";
 import { Provider } from "react-redux";
 import { BrowserRouter } from "react-router-dom";
+import { ToggleProvider } from "./context/toggleContext";
 import App from "./App";
 import "./index.css";
 
@@ -13,7 +14,9 @@ root.render(
   <React.StrictMode>
     <Provider store={store}>
       <BrowserRouter>
-        <App />
+        <ToggleProvider>
+          <App />
+        </ToggleProvider>
       </BrowserRouter>
     </Provider>
   </React.StrictMode>

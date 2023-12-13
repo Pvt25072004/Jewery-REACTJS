@@ -1,5 +1,4 @@
 import React from "react";
-import "./ringpage.css";
 
 function RingPage(props) {
   return (

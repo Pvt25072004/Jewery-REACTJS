@@ -1,6 +1,6 @@
 {
     "products_ring": [
-      {"id":1, "name":"R MIDI 8 SHACKLE HANDCUFF", "price": 390.000, "des":"Thông tin sản phẩm đang được cập nhật.", "image":"https://bizweb.dktcdn.net/thumb/1024x1024/100/302/551/products/compressed-cropna-2307-4-057-1.jpg?v=1695116898697"},
+      {"id":1, "name":"R MIDI SUN FLAT RUSTIC", "price": 550.000, "des":"Thông tin sản phẩm đang được cập nhật.", "image":"https://bizweb.dktcdn.net/thumb/large/100/302/551/products/compressed-cropna-2307-4-056.jpg?v=1695116849907"},
       {"id":2, "name":"R MIDI CRESCENT MOON STAR GEM", "price":450.000, "des": "Thông tin sản phẩm đang được cập nhật.", "image": "https://bizweb.dktcdn.net/thumb/large/100/302/551/products/compressed-cropna-2307-4-069-2a87840b-e45c-404e-a983-380e13c93060.jpg?v=1695117584170"},
       {"id":3, "name":"R INDI TINY BLACK ONYX", "price":590.000, "des":"Thông tin sản phẩm đang được cập nhật.", "image": "https://bizweb.dktcdn.net/thumb/large/100/302/551/products/beo-5736-1.jpg?v=1586323621473"},
       {"id":4, "name":"R R DOUBLE LINE 2", "price":290.000, "des":"Thông tin sản phẩm đang được cập nhật.", "image": "https://bizweb.dktcdn.net/thumb/large/100/302/551/products/39631839334c033255d98b-dd4b7647-b06f-4a57-a5c9-d0123c09ccb3.jpg?v=1531850883517"},
@@ -22,8 +22,8 @@
       {"id":6, "name":"EC CURL PATTERN", "price": 130.000, "des":"Thông tin sản phẩm đang được cập nhật.", "image":"https://bizweb.dktcdn.net/thumb/1024x1024/100/302/551/products/264599872785065b875d2b.jpg?v=1531851349313"},
       {"id":7, "name":"E JACKET LOTUS GEM OXIDIZE UPSIDE DOWN", "price": 450.000, "des":"Thông tin sản phẩm đang được cập nhật.", "image":"https://bizweb.dktcdn.net/thumb/1024x1024/100/302/551/products/compressed-resized-na-2110-7-104-20589-1-1.jpg?v=1640170566063"},
       {"id":8, "name":"E JACKET XO", "price": 390.000, "des":"Thông tin sản phẩm đang được cập nhật.", "image":"https://bizweb.dktcdn.net/thumb/large/100/302/551/products/3943476265502a9435f77b.jpg?v=1531851330323"},
-      {"id":9, "name":"BRA BIG CZ CLOVER GEM STONE AND BALL","price": 330.000, "des":"Thông tin sản phẩm đang được cập nhật.","image":"https://bizweb.dktcdn.net/thumb/1024x1024/100/302/551/products/compressed-cropped-resized-hda0004-21303-1.jpg?v=1695288791743"},
-      {"id": 10, "name":"BRA CRESCENT MOON GEM", "price": 450.000, "des":"Thông tin sản phẩm đang được cập nhật.", "image":"https://bizweb.dktcdn.net/thumb/1024x1024/100/302/551/products/compressed-cropna-2307-1-017-1-1.jpg?v=1695286792483"}
+      {"id":9, "name":"E CLIMBER MULTI LEAF GEM","price": 490.000, "des":"Thông tin sản phẩm đang được cập nhật.","image":"https://bizweb.dktcdn.net/thumb/large/100/302/551/products/compressed-cropna-2209-7-076.jpg?v=1686987361720"},
+      {"id": 10, "name":"E CLIMBER MULTI BUTTERFLY", "price": 390.000, "des":"Thông tin sản phẩm đang được cập nhật.", "image":"https://bizweb.dktcdn.net/thumb/large/100/302/551/products/compressed-cropna-2209-7-073-copy.jpg?v=1686987432733"}
     ],
     "products_necklace": [
       {"id":1, "name":"N WISH BOTTLE TRIPLE GEM", "price": 490.000, "des":"Thông tin sản phẩm đang được cập nhật.", "image":"https://bizweb.dktcdn.net/thumb/1024x1024/100/302/551/products/compressed-cropbi-2307-6-135-1.jpg?v=1694602385133"},
@@ -36,7 +36,7 @@
       {"id":8, "name":"P STAMP MOON SHAPE", "price": 390.000, "des":"Thông tin sản phẩm đang được cập nhật.", "image":"https://bizweb.dktcdn.net/thumb/1024x1024/100/302/551/products/compressed-cropvi-2303-5-017-1.jpg?v=1685417298553"},
       {"id":9, "name":"P COMPASS OXIDIZE", "price":390.000, "des":"Thông tin sản phẩm đang được cập nhật.", "image":"https://bizweb.dktcdn.net/thumb/1024x1024/100/302/551/products/ga-n-logovi-2209-5-053-1-1.jpg?v=1681121936263"}
     ],
-    "products_ bracelet": [
+    "products_bracelet": [
       {"id":1, "name":"B BIG DOUBLE BALL REMOVABLE THICK LINE", "price": 990.000, "des":"Thông tin sản phẩm đang được cập nhật.", "image":"https://bizweb.dktcdn.net/thumb/1024x1024/100/302/551/products/compressed-croptd-2307-3-081-1.jpg?v=1695121737507"},
       {"id":2, "name":"B CAT EAR","price": 890.000, "des":"Thông tin sản phẩm đang được cập nhật.", "image":"https://bizweb.dktcdn.net/thumb/1024x1024/100/302/551/products/compressed-cropbi-2301-3-028-1.jpg?v=1685417372047"},
       {"id":3, "name":"BRA UNISEX WIRE ART KNIT KNOT DOUBLE LINE", "price": 690.000, "des":"Thông tin sản phẩm đang được cập nhật.", "image":"https://bizweb.dktcdn.net/thumb/1024x1024/100/302/551/products/compressed-crop0202-1.jpg?v=1695288109030"},
@@ -46,12 +46,38 @@
       {"id":7, "name":"C FAT NEKO AND DROP BELL", "price": 450.000, "des":"Thông tin sản phẩm đang được cập nhật.", "image":"https://bizweb.dktcdn.net/thumb/1024x1024/100/302/551/products/compressed-resized-crop-charms-qu-2104-5-063-2.jpg?v=1663669860467"},
       {"id":8, "name":"C SMILE CAT AND FISH OXIDIZE", "price": 390.000, "des":"Thông tin sản phẩm đang được cập nhật.", "image":"https://bizweb.dktcdn.net/thumb/1024x1024/100/302/551/products/web-dsc7281-1.jpg?v=1590753226447"}
     ],
+    "products_accessory":[
+      {"id":1, "name":"ACC COMBO BIG LIQUID CLOTH POLISHING B", "price": 100.000,"des":"Thông tin sản phẩm đang được cập nhật.", "image":"https://bizweb.dktcdn.net/thumb/large/100/302/551/products/compressed-donedoneka8-6187-1.jpg?v=1680841210713"},
+      {"id":2, "name":"ACC COMBO SMALL LIQUID CLOTH POLISHING BAR","price": 80.000,"des":"Thông tin sản phẩm đang được cập nhật.", "image":"https://bizweb.dktcdn.net/thumb/large/100/302/551/products/compressed-donedoneka8-6183-1.jpg?v=1680841009530"},
+      {"id":3, "name":"ACC POLISHING BAR", "price": 30.000,"des":"Thông tin sản phẩm đang được cập nhật.", "image":"https://bizweb.dktcdn.net/thumb/large/100/302/551/products/doneka8-6157.jpg?v=1680497469360"},
+      {"id":4, "name":"SET LIQUID CLOTH S", "price": 50.000,"des":"Thông tin sản phẩm đang được cập nhật.", "image":"https://bizweb.dktcdn.net/thumb/large/100/302/551/products/danen-hello-cropped-ka8-7404-1-1.jpg?v=1657278758327"},
+      {"id":5, "name":"CLOTH S", "price": 30.000,"des":"Thông tin sản phẩm đang được cập nhật.", "image":"https://bizweb.dktcdn.net/thumb/large/100/302/551/products/danen-hello-cropped-ka8-7411-1.jpg?v=1657278103203"},
+      {"id":6, "name":"LIQUID S", "price":30.000,"des":"Thông tin sản phẩm đang được cập nhật.", "image":"https://bizweb.dktcdn.net/thumb/large/100/302/551/products/danen-hello-cropped-ka8-7401-1-1.jpg?v=1657277902987"},
+      {"id":7, "name":"LIQUID L", "price": 50.000,"des":"Thông tin sản phẩm đang được cập nhật.", "image":"https://bizweb.dktcdn.net/thumb/large/100/302/551/products/danen-hello-cropped-ka8-7401-1-1-140cdb20-b67b-4981-b1d6-fac3bca0f6ef.jpg?v=1657277954100"},
+      {"id":8, "name":"KAT LETHER BOX", "price": 450.000,"des":"Thông tin sản phẩm đang được cập nhật.", "image":"https://bizweb.dktcdn.net/thumb/large/100/302/551/products/danen-newb89e0257-d1ce-45b0-a633-c97c0073a6e5.jpg?v=1676535220747"}
+    ],
+    "products_collection":[
+      {"id":1, "name":"TR BOW BAND", "price": 290.000,"des":"Thông tin sản phẩm đang được cập nhật.", "image":"https://bizweb.dktcdn.net/thumb/large/100/302/551/products/compressed-cropvi-2307-4-118-1.jpg?v=1695188988520"},
+      {"id":2, "name":"R MIDI THIN STAR GEM","price": 290.000,"des":"Thông tin sản phẩm đang được cập nhật.", "image":"https://bizweb.dktcdn.net/thumb/large/100/302/551/products/compressed-cropna-2307-4-060.jpg?v=1695116973757"},
+      {"id":3, "name":"BRA STAR GEM", "price": 450.000,"des":"Thông tin sản phẩm đang được cập nhật.", "image":"https://bizweb.dktcdn.net/thumb/large/100/302/551/products/compressed-cropna-2307-1-012.jpg?v=1694602240730"},
+      {"id":4, "name":"E STUD UNIVERSE PLANET GEM STAR", "price": 290.000,"des":"Thông tin sản phẩm đang được cập nhật.", "image":"https://bizweb.dktcdn.net/thumb/large/100/302/551/products/compressed-cropbi-2306-7-023.jpg?v=1695372743983"},
+      {"id":5, "name":"TR BONE LINE OXIDIZE", "price": 270.000,"des":"Thông tin sản phẩm đang được cập nhật.", "image":"https://bizweb.dktcdn.net/thumb/large/100/302/551/products/danen-cropna-2303-4-041-1-1.jpg?v=1684655977197"},
+      {"id":6, "name":"ANK BOW DOUBLE LINE DROP GEM","price": 390.000,"des":"Thông tin sản phẩm đang được cập nhật.", "image":"https://bizweb.dktcdn.net/thumb/large/100/302/551/products/compressed-resized-crop-anklets-bi-2104-2-013-1.jpg?v=1663672437533"},
+      {"id":7, "name":"N DEER HORN", "price": 490.000,"des":"Thông tin sản phẩm đang được cập nhật.", "image":"https://bizweb.dktcdn.net/thumb/large/100/302/551/products/dsc6913-1-copy.jpg?v=1599426773953"},
+      {"id":8, "name":"ANK DOUBLE LINK", "price": 490.000,"des":"Thông tin sản phẩm đang được cập nhật.", "image":"https://bizweb.dktcdn.net/thumb/large/100/302/551/products/compressed-cropped-resized-bi-2110-2-066-20707-1.jpg?v=1641927134907"}
+    ],
     "comments": [
-      { "id": 1, "name": "bae", "comment": "Good" , "avatar": "https://embedsocial.com/admin/media/feed-media/18281/18281311852178916/image_0.webp", "date-time": "2023/09/11"},
-      { "id": 2, "name": "bae", "comment": "Good" , "avatar": "https://embedsocial.com/admin/media/feed-media/18281/18281311852178916/image_0.webp", "date-time": "2023/10/11"},
-      { "id": 3, "name": "bae", "comment": "Good" , "avatar": "https://embedsocial.com/admin/media/feed-media/18281/18281311852178916/image_0.webp", "date-time": "2023/11/11"},
-      { "id": 4, "name": "bae", "comment": "Good" , "avatar": "https://embedsocial.com/admin/media/feed-media/18281/18281311852178916/image_0.webp", "date-time": "2022/01/11"},
-      { "id": 5, "name": "bae", "comment": "Good" , "avatar": "https://embedsocial.com/admin/media/feed-media/18281/18281311852178916/image_0.webp", "date-time": "2022/02/11"},
-      { "id": 6, "name": "bae", "comment": "Good" , "avatar": "https://embedsocial.com/admin/media/feed-media/18281/18281311852178916/image_0.webp", "date-time": "2022/03/11"}
+      { "id": 1, "name": "ban", "comment": "Good" , "avatar": "https://embedsocial.com/admin/media/feed-media/18281/18281311852178916/image_0.webp", "date-time": "2023/09/11"},
+      { "id": 2, "name": "lun", "comment": "Ok" , "avatar": "https://embedsocial.com/admin/media/feed-media/18281/18281311852178916/image_0.webp", "date-time": "2023/10/11"},
+      { "id": 3, "name": "xu", "comment": "Bad" , "avatar": "https://embedsocial.com/admin/media/feed-media/18281/18281311852178916/image_0.webp", "date-time": "2023/11/11"},
+      { "id": 4, "name": "leo", "comment": "Very good" , "avatar": "https://embedsocial.com/admin/media/feed-media/18281/18281311852178916/image_0.webp", "date-time": "2022/01/11"},
+      { "id": 5, "name": "bap", "comment": "Amazing" , "avatar": "https://embedsocial.com/admin/media/feed-media/18281/18281311852178916/image_0.webp", "date-time": "2022/02/11"},
+      { "id": 6, "name": "keo", "comment": "Good" , "avatar": "https://embedsocial.com/admin/media/feed-media/18281/18281311852178916/image_0.webp", "date-time": "2022/03/11"}
+    ],
+    "login":[
+      {"id":1,"name": "Pham Hoa", "email":"hoapham@gmail.com", "password":"hp1234567@"},
+      {"id":2,"name":"Nguyen Van Tin", "email":"tinnguyen@gmail.com", "password":"tn1234567@"},
+      {"id":3,"name": "Bui Phuc", "email":"phucbui@gmail.com", "password":"pb1234567@"},
+      {"id":4,"name":"Tran Hung", "email":"hungtran@gmail.com", "password":"ht1234567@"}
     ]
 }

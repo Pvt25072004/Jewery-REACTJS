@@ -1,0 +1,19 @@
+.login{
+    margin-bottom: 80px;
+}
+.login_input{
+    margin: 20px 0;
+    color: #42210b;
+}
+.login_submit-btn{
+    margin-top: 34px;
+    color: #ffffff;
+    background-color: #42210b;
+    border-color: #42210b;
+}
+.login_submit-btn:hover{
+    transition: all linear .2s;
+    background-color: #6c3713;
+    color: #ffffff;
+    border-color: #42210b;
+}

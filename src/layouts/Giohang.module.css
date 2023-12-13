@@ -1,0 +1,17 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+  }
+  .img img {
+    width: 50px;
+  }
+  button{
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid red;
+  }
+  button:hover{
+    transition: all linear .2s;
+    color: #fff;
+    background: red;
+  }

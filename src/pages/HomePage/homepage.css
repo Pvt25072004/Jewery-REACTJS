@@ -1,3 +1,7 @@
+:root{
+    --img-social-w:156px;
+    --img-social-h:148px;
+}
 .HomePage{
     font-family: 'Roboto', sans-serif;
 }
@@ -26,8 +30,7 @@ p{
     background-color: #f5f4f3;
     text-align: center;
     margin-top: 80px;
-    width: 1300px;
-    height: 100px;
+    width: auto;
     line-height: 100px;
     font-size: 60px;
     border-radius: 4px;
@@ -55,9 +58,8 @@ p{
 }
 .hp__container-born{
     color: #42210b;
-    margin-top: 70px;
     border-bottom: 1px solid #42210b;
-    padding-bottom: 80px;
+    padding: 80px 0;
 }
 .hp__container-born-title{
     padding-bottom: 40px;
@@ -77,9 +79,8 @@ p{
 }
 .hp__container--bestseller{
     color: #42210b;
-    margin-top: 100px;
     border-bottom: 1px solid #42210b;
-    padding-bottom: 10px;
+    padding: 80px 0;
 }
 .hp__container-bestseller-img > img{
     width: 410px;
@@ -114,16 +115,14 @@ p{
 }
 .hp__container--blog{
     color: #42210b;
-    margin-top: 90px;
     border-bottom: 1px solid #42210b;
-    padding-bottom: 10px;
+    padding: 80px 0;
     cursor: pointer;
 }
 .hp__container--about{
     color: #42210b;
-    margin-top: 90px;
     border-bottom: 1px solid #42210b;
-    padding-bottom: 10px;
+    padding: 80px 0;
     cursor: pointer;
 }
 .hp__container-about-click{
@@ -137,8 +136,7 @@ p{
 }
 .hp__container--feedback{
     color: #42210b;
-    margin-top: 90px;
-    padding-bottom: 10px;
+    padding: 80px 0;
 }
 .hp__container-about-tick{
     color: #0081ff;
@@ -151,7 +149,7 @@ p{
     padding: 60px 0;
 }
 .hp__container-social{
-    margin-bottom: 100px;
+    padding: 100px 0;
 }
 .hp__container-social-title > button{
     border-radius: 4px;
@@ -163,11 +161,12 @@ p{
     height: 300px;
     border-radius: 4px;
 }
+
 .hp__container-social-img-right > img{
-    width: 156px;
-    height: 148px;
+    width: var(--img-social-w);
+    height: var(--img-social-h);
 }
 .hp__container-social-img-left > img{
-    width: 156px;
-    height: 148px;
+    width: var(--img-social-w);
+    height: var(--img-social-h);
 }

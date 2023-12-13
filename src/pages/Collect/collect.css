@@ -1,0 +1,20 @@
+.collect{
+    margin-bottom: 80px;
+}
+.collect_card-limit{
+    font-weight: 400;
+    line-height: 1.6rem;
+    padding: 0;
+    height: 3.2rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.instagram-img{
+    width: 100%;
+}
+/* DÙNG CHO 1 HÀNG */
+/* text-overflow: ellipsis;
+white-space: nowrap;
+height: 1.8rem; */

@@ -15,8 +15,11 @@
     font-size: 24px;
     margin: 0 6px;
 }
-.header__personal > a{
-    text-decoration: none;
+.header__personal{
+    display: flex;
+}
+.header__personal--account{
+    cursor: pointer;
     color:#42210b;
     font-size: 24px;
     margin: 0 6px;
@@ -31,12 +34,41 @@
 .header__logo > img{
     width: 120px;
     height: 90px;
+}
 
+.account-show{
+    display: block;
 }
-.nav_layout{
-    padding-top: 10px;
+.account{
+    display: none;
+}
+ul >li{
+    list-style: none;
+    color: #76695f;
+}
+ul >li:hover{
+    color: #42210b;
+}
+/* .nav_layout{
+    position: fixed;
+    top: 10px;
+    left: 0;
+    right: 0;
     font-family: 'Roboto', sans-serif;
+} */
+.nav_layout {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    transition: top 0.3s ease;
 }
+  .sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; 
+}
+  
 .nav_layout__child{
     text-align: center;
     border-top: 2px solid #42210b;
@@ -46,15 +78,32 @@
     margin: 0 20px;
     font-weight: 600;
 }
-.footer{
+.nav__item-list:hover{
     background-color: #42210b;
+    color: #ffffff;
+    border-radius: 4px;
+}
+.nav-link:hover{
+    background-color: #42210b;
+    color: #ffffff;
+    border-radius: 4px;
+
+}
+@media screen and (min-width: 990px) and (max-width: 1400px) {
+    .nav__item {
+      margin: 0 12px; 
+    }
+}
+.footer{
+    padding: 40px 0;
+    background-color: #291407;
     color: #ffffff;
 }
 .footer > ul > li{
     list-style: none;
 }
-.footer__main{
-    text-align: center;
+.footer__item-underline{
+    border-right: 2px solid #ffffff;
 }
 .footer__item >ul > a{
     list-style: none;
@@ -63,4 +112,20 @@
 }
 .footer__address{
     font-size: x-large;
+}
+.footer__main-name{
+    color: #ffffff;
+}
+.footer__main{
+    text-align: center;
+}
+.footer__main > img{
+    width: 100px;
+    height: 70px;
+}
+.footer__item.footer__item-address {
+    text-align: center;
+}
+.cart{
+    font-size: 24px;
 }

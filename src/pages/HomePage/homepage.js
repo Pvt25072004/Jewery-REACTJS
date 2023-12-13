@@ -12,7 +12,7 @@ export default function HomePage() {
   return (
     <div className="HomePage">
       {/* Slider */}
-      <Carousel>
+      <Carousel className="carousel">
         <Carousel.Item>
           <img
             className="d-block w-100"
@@ -54,7 +54,7 @@ export default function HomePage() {
         </Row>
       </Container>
       {/* Slogan */}
-      <Container className="hp__container--slogan">
+      <Container className="hp__container--slogan" data-aos="fade-down">
         <Row>
           <Col>
             Wearing jewelry is the way to express who you are... without saying
@@ -66,13 +66,13 @@ export default function HomePage() {
       <Container className="hp__container--info">
         <Row>
           <Col className="hp__container--info-img">
-            <img src="https://scontent-vie1-1.cdninstagram.com/v/t39.30808-6/406052053_758214063017941_5110583166480168589_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c4dd86&_nc_ohc=IqKF1spY-NMAX_kiZ_f&_nc_ht=scontent-vie1-1.cdninstagram.com&edm=AM6HXa8EAAAA&oh=00_AfDOWYtKGm1vRGjAr_r13DeV_Hq6ylNtUSvXRWF2wgIGsg&oe=656A8BD0" />
+            <img src="/img/h1.jpg" />
           </Col>
           <Col className="hp__container--info-img">
-            <img src="https://scontent-vie1-1.cdninstagram.com/v/t39.30808-6/406052053_758214063017941_5110583166480168589_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c4dd86&_nc_ohc=IqKF1spY-NMAX_kiZ_f&_nc_ht=scontent-vie1-1.cdninstagram.com&edm=AM6HXa8EAAAA&oh=00_AfDOWYtKGm1vRGjAr_r13DeV_Hq6ylNtUSvXRWF2wgIGsg&oe=656A8BD0" />
+            <img src="/img/h2.jpg" />
           </Col>
           <Col className="hp__container--info-img">
-            <img src="https://scontent-vie1-1.cdninstagram.com/v/t39.30808-6/406034530_758145869691427_6562378253738464510_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c4dd86&_nc_ohc=4SifgolpEwcAX-He7VV&_nc_ht=scontent-vie1-1.cdninstagram.com&edm=AM6HXa8EAAAA&oh=00_AfBE5lmdbeqKhIpvNz80PkHF-1MqluPfNeQKaWkanQO1XA&oe=656B8E73" />
+            <img src="/img/h3.jpg" />
           </Col>
           <div className="hp__container--info-click">
             <Button variant="secondary" type="submit">
