@@ -135,6 +135,9 @@ export default function Footer() {
               <a href="">
                 <li>52 Tràng Thi, P.Hàng Bông, Q.Hoàn Kiếm</li>
               </a>
+              <a href="">
+                <li>46 Thái Hà, Q. Đống Đa</li>
+              </a>
             </ul>
           </Col>
         </Row>
