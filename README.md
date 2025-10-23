@@ -1,70 +1,115 @@
-# Getting Started with Create React App
+<!--
+	README project-specific bản tiếng Việt
+	- Thay thế nội dung mặc định Create React App
+	- Mô tả ngắn, cách chạy json-server, endpoints, và notes dev
+-->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# My App — Cửa hàng trang sức (React)
 
-## Available Scripts
+Mô tả ngắn
+Một ứng dụng web cửa hàng trang sức nhỏ được xây dựng bằng React. Ứng dụng dùng React Router cho điều hướng, Redux Toolkit cho quản lý state, axios để gọi API, và `json-server` làm fake API với dữ liệu mẫu ở `src/db.json`.
 
-In the project directory, you can run:
+## Tech stack
 
-### `npm start`
+- React (Create React App)
+- React Router v6
+- Redux Toolkit + react-redux
+- axios
+- json-server (fake API)
+- Bootstrap, react-bootstrap
+- react-icons, aos (animation)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Yêu cầu
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Node.js (>= 14) và npm
 
-### `npm test`
+## Cài đặt
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Mở terminal tại thư mục dự án (chứa `package.json`), sau đó:
 
-### `npm run build`
+```bash
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Chạy ứng dụng (frontend) và fake API (json-server)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Chạy json-server (phục vụ `src/db.json`) trên port 3000:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npx json-server --watch src/db.json --port 3000
+```
 
-### `npm run eject`
+2. Ở terminal khác, chạy frontend:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+# Nếu port 3000 đã bị chiếm (ví dụ json-server), đặt biến môi trường để chạy React trên port khác:
+PORT=3001 npm start
+# Hoặc chỉ cần
+npm start
+# CRA sẽ gợi ý port khác nếu 3000 đang bận.
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Gợi ý: bạn có thể thêm script npm cho json-server (ví dụ `"api": "json-server --watch src/db.json --port 3000"`) để tiện thao tác.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Endpoints chính (từ `src/db.json`)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- GET/POST/PUT/DELETE /products_ring
+- GET/POST/PUT/DELETE /products_earring
+- GET/POST/PUT/DELETE /products_necklace
+- GET/POST/PUT/DELETE /products_bracelet
+- GET/POST/PUT/DELETE /products_accessory
+- GET/POST/PUT/DELETE /products_collection
+- GET/POST/PUT/DELETE /comments
+- GET/POST /login
 
-## Learn More
+> Lưu ý: `axiosApi` được cấu hình với `baseURL: http://localhost:3000/`, vì vậy json-server cần chạy trên port 3000 để khớp mặc định này.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Cấu trúc thư mục (những file/ thư mục quan trọng)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- `src/index.js` — entry, bọc `App` bằng `Provider` (redux), `BrowserRouter` và `ToggleProvider` (context).
+- `src/App.js` — layout chính (Header, NavLayout, Router, Footer).
+- `src/routes/index.js` — định nghĩa các route chính.
+- `src/pages/` — các trang (HomePage, ProductList, Register, Login, ...).
+- `src/layouts/` — header, footer, nav, shop layout.
+- `src/api/axiosApi.js` — axios instance (interceptor trả `response.data`).
+- `src/api/*Api.js` — wrapper gọi API (getAll, get, add, update, remover).
+- `src/redux/slice.js`, `src/redux/actionThunk.js`, `src/redux/store.js` — Redux slice và thunk.
+- `src/db.json` — dữ liệu giả lập cho json-server.
 
-### Code Splitting
+## Ghi chú dành cho developer (vấn đề biết trước & đề xuất)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- `axiosApi` có response interceptor trả `response.data` — component khi dùng `axiosApi.get()` sẽ nhận dữ liệu đã giải nén.
+- Ở `src/App.js` có chỗ gọi `axios.get(" http://localhost:3000/products_ring")` (có khoảng trắng đầu chuỗi URL) — cần xóa khoảng trắng đó để tránh lỗi.
+- `src/redux/slice.js`: `initialState = { ringList: [] }` nhưng reducer `addRing` và `deleteRing` hiện thao tác lên `state.value` (không tồn tại). Nếu dùng `addRing`/`deleteRing` cần cập nhật reducer cho phù hợp.
+- `src/redux/actionThunk.js` sử dụng `fetch` thay vì `axiosApi`. Có thể chuẩn hóa dùng `axiosApi` hoặc `createAsyncThunk` của Toolkit.
+- Nếu muốn phát triển nhanh, thêm script npm:
+  - `"api": "json-server --watch src/db.json --port 3000"`
+  - dùng `concurrently` để chạy đồng thời `"api"` và `"start"` (tùy chọn).
 
-### Analyzing the Bundle Size
+## Scripts đề xuất (thêm vào `package.json`)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```json
+"scripts": {
+	"start": "react-scripts start",
+	"build": "react-scripts build",
+	"test": "react-scripts test",
+	"eject": "react-scripts eject",
+	"api": "json-server --watch src/db.json --port 3000",
+	"dev": "concurrently \"npm run api\" \"PORT=3001 npm start\""
+}
+```
 
-### Making a Progressive Web App
+Lưu ý: `concurrently` cần `npm install --save-dev concurrently`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Cách đóng góp
 
-### Advanced Configuration
+- Fork repo -> tạo feature branch -> pull request.
+- Ghi rõ thay đổi, test đã chạy.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Liên hệ / License
 
-### Deployment
+- Thêm thông tin liên hệ hoặc loại license nếu cần.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Tài liệu này cung cấp hướng dẫn cơ bản để chạy và phát triển ứng dụng. Nếu bạn muốn, tôi có thể (tự động) thêm script `api` vào `package.json` hoặc tạo script `dev` với `concurrently`.
