@@ -8,7 +8,7 @@
 
 Mô tả ngắn
 Một ứng dụng web cửa hàng trang sức nhỏ được xây dựng bằng React. Ứng dụng dùng React Router cho điều hướng, Redux Toolkit cho quản lý state, axios để gọi API, và `json-server` làm fake API với dữ liệu mẫu ở `src/db.json`.
-
+<img src="./public/img/Jewelry_QR.png" alt="QR Web" width="400">
 ## Tech stack
 
 - React (Create React App)
